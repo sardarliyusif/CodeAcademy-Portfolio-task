@@ -1,0 +1,36 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+// Display
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+// Flex options
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-d-column{
+    flex-direction: column;
+}
+.f-jt-center{
+    justify-content: center;
+}
+.f-jt-s-between{
+    justify-content: space-between;
+}
+.f-ai-center{
+    align-items: center;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}

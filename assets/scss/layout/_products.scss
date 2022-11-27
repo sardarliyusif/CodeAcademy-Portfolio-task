@@ -1,0 +1,23 @@
+.products{
+    @extend .center,.f-d-column;
+
+    &__nav{
+        @extend .d-flex;
+    }
+    &__items{
+        @extend .d-flex, .f-wrap;
+        width: 100%;
+        .product{
+            @extend .col-4;
+            height: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sections{
+        .container{
+            width: 95%;
+        }
+    }
+  }
